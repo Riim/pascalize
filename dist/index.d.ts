@@ -1,1 +1,1 @@
-export declare function pascalize(str: string, useCache?: boolean): string;
+export declare function pascalize(str: any, useCache?: boolean): string;

@@ -2,7 +2,9 @@ import { camelize } from '@riim/camelize';
 
 let cache = Object.create(null);
 
-export function pascalize(str: string, useCache?: boolean): string {
+export function pascalize(str: any, useCache?: boolean): string {
+	str = String(str);
+
 	let value: string;
 
 	return (
